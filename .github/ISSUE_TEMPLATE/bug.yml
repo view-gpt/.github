@@ -1,6 +1,6 @@
 name: "Bug Report"
 description: "Report a bug in the system"
-title: "[Bug]"
+title: "bug:[Bug]"
 labels: ["bug"]
 body:
   - type: textarea
@@ -17,4 +17,7 @@ body:
       label: "Steps to Reproduce"
       description: "List the steps to reproduce the bug"
     validations:
+      required: true
+
+
 

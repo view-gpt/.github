@@ -1,0 +1,20 @@
+name: "Bug Report"
+description: "Report a bug in the system"
+title: "[Bug]"
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Bug Description"
+      description: "Describe the bug in detail"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps_to_reproduce
+    attributes:
+      label: "Steps to Reproduce"
+      description: "List the steps to reproduce the bug"
+    validations:
+
